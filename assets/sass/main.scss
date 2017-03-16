@@ -1,0 +1,37 @@
+@charset 'UTF-8';
+
+// ABSTRACTS
+@import 
+	'abstracts/mixins',
+	'abstracts/variables',
+	'abstracts/functions';
+
+// VENDOR 
+@import 
+  'vendor/normalize';
+
+//BASE
+@import 
+  'base/base',
+  'base/fonts',
+  'base/typography';
+
+ //TYPOGRAPHY
+@import
+   'layout/navfooter';
+
+// COMPONENTS
+@import
+   'components/animations',
+   'comopnents/buttons',
+   'components/inputs';
+
+
+// PAGE SPECIFIC
+@import
+  'pages/front',
+  'pages/project';
+
+// MEDIA QUERIES
+@import 
+  'responsive/mediaqueries';

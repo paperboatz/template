@@ -1,0 +1,101 @@
+/* 
+* --- Solid Colors---
+*/
+
+
+/* 
+* --- Copy Text Color ---
+*/
+
+
+/* 
+* --- Global Link Colors ---
+*/
+
+$color-link: $med-blue;
+$color-visited: $dark-blue;
+$color-hover: $light-blue;
+$color-focus: $light-blue;
+$color-active: $med-blue;
+
+/* 
+* --- Background Colors ---
+*/
+
+
+/* 
+* --- Special Text Colors ---
+*/
+
+$error: $bright-red;
+
+/* 
+* --- Element Colors ---
+*/
+
+
+
+/* 
+* --- Font Stacks ---
+*/
+$display-font-stack: (
+	'Playfair Display',
+	'Georgia',
+	Serif
+);
+
+$text-font-stack: (
+	'Open Sans',
+	'Helvetica',
+	sans-serif
+);
+
+
+/* 
+* ==== Type Scales =====
+*/
+
+/* *
+ * Type & line-height scales used
+ * to create type groupings with proper size & leading
+ * used with _functions and _mixins in _typography
+*/ 
+
+$type-scale: (
+  -1: 0.75rem,  // small text
+  0: 1rem,      // body text
+  1: 1.333rem, 
+  2: 1.777rem, 
+  3: 2.368rem,	
+  4: 3.157rem,
+  5: 4.209rem,
+  6: 5.610rem
+);
+
+$base-font-size: 1rem;
+$base-line-height: $base-font-size * 1.25;
+
+$line-heights: (
+  -3: $base-line-height / 2,
+  -2: $base-line-height / 1.5,
+  -1: $base-line-height,
+  0: $base-line-height,
+  1: $base-line-height * 1.5,
+  2: $base-line-height * 2,
+  3: $base-line-height * 2,
+  4: $base-line-height * 3,
+  5: $base-line-height * 4,
+  6: $base-line-height * 5
+);
+
+$type-weights: (
+	// light: 300,
+	// med: 400,
+	// heavy: 700
+);
+
+
+
+
+
+
